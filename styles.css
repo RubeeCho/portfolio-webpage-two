@@ -188,11 +188,42 @@ html {
     /* allows clicks through the particles */
 }
 
-.about-content img {
-    width: 300px;
+#img1 {
+    width: 800px;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img2 {
+    width: 800px;
+    height: 430px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img3 {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img4 {
+    width: 800px;
     height: 400px;
     object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
